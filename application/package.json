@@ -1,0 +1,17 @@
+{
+  "name": "container-data-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "health": "node health.js",
+    "load_coin": "node load-coin.js",
+    "load_crypto": "node load-crypto.js",
+    "load_news": "node load-news.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-schedule": "^2.1.1"
+  }
+}
